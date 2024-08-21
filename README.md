@@ -25,10 +25,10 @@ cd ts-easy
 
 ### 2. Install Dependencies
 
-Make sure you have pnpm installed. Then, run:
+Make sure you have bun installed. Then, run:
 
 ```bash
-pnpm install
+bun install
 ```
 
 ### 3. Start Developing
@@ -36,7 +36,7 @@ pnpm install
 Kickstart your development with autoreload on save:
 
 ```bash
-pnpm dev
+bun dev
 ```
 
 ### 4. Build for Production
@@ -44,7 +44,7 @@ pnpm dev
 Ready to ship? Build your project with:
 
 ```bash
-pnpm build
+bun build
 ```
 
 ### Project Structure 📁
@@ -61,17 +61,17 @@ ts-easy/
 ├── .prettierrc      	# Prettier configuration
 ├── tsconfig.json    	# TypeScript configuration
 ├── package.json     	# Project metadata and scripts
-└── pnpm-lock.yaml   	# Dependency lockfile
 ```
 
 ### Scripts 📝
 
-* **pnpm dev:** Run your project with autoreload.
-* **pnpm start:** Run your build.
-* **pnpm lint:** Lint your TypeScript code using ESLint.
-* **pnpm lint:fix:** Lint and fix your TypeScript code using ESLint.
-* **pnpm format:** Format your code with Prettier.
-* **pnpm build:** Bundle your project using tsup.
+* **bun dev:** Run your project with autoreload.
+* **bun start:** Run your build.
+* **bun lint:** Lint your TypeScript code using ESLint.
+* **bun lint:fix:** Lint and fix your TypeScript code using ESLint.
+* **bun format:** Format your code with Prettier.
+* **bun build:** Bundle your project using tsup.
+* **bun test:** Run tests
 
 ### Why ts-easy? 🤔
 
